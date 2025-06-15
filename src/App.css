@@ -16,10 +16,10 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  /* color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'comfortaa', cursive;
 }
 .buttons button:hover {
   background-color: gold;
@@ -41,11 +41,11 @@ body{
 }
 @media (max-width: 500px) {
   h1 {
-    font-size: 6vw;
+    font-size: 8vw;
   }
 
   h2 {
-    font-size: 8vw;
+    font-size: 7vw;
   }
 
   .buttons button {
