@@ -16,7 +16,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color: white;
+  /* color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,5 +51,7 @@ body{
   .buttons button {
     font-size: 1rem;
     padding: 0.8rem 1.5rem;
+    background-color : white;
+    color : black;
   }
 }
